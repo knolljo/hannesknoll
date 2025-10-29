@@ -1,6 +1,7 @@
 [tools]
 lefthook = "latest"
 gitleaks = "latest"
+lychee = "latest"
 
 [hooks]
 postinstall = ["lefthook install"]
