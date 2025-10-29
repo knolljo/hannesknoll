@@ -1,14 +1,12 @@
 pre-commit:
   jobs:
     - name: Build README
-      files: fd . 'Hannes Knoll'
-      run: nu main.nu
-      stage_fixed: true
+      run: |
+        nu main.nu
+        git add README.md
 
     - name: Check links
-      glob: "*.md"
-      run: lychee -t 1 {staged_files}
-      stage_fixed: true
+      run: lychee -t 1 README.md
 
     - name: Find leaks
       run: gitleaks git -v

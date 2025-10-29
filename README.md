@@ -18,7 +18,7 @@
 │   ├── <a href="https://github.com/hannesknoll">GitHub</a>
 │   └── <a href="https://gitlab.com/hannesknoll">GitLab</a>
 ├── 🔬 Experiments
-│   └── <a href="https://github.com/hannesknoll/Notebooks">Notebooks</a>
+│   └── <a href="https://codeberg.org/hannesknoll/Notebooks">Notebooks</a>
 ├── 🥁 Band
 │   ├── <a href="https://youtu.be/LIPRnscnrSI?si=KRT2z1I0zomGwUR0">CampusKunst</a>
 │   └── <a href="https://bassed.de">Website</a>
